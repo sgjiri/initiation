@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#menu{
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+#menu > ul > li {
+    float: left;
+    list-style: none;
+}
+#menu > ul > li > a {
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    padding: 0 10px;
+    color: #000;
+    background-color: aqua;
+    border-bottom: 2px solid green;
+    transition: all .5s ease;
+
+}
+#menu > ul > li:hover > a {
+    background-color: red;
+    border-bottom: 2px solid rgb(128, 64, 0);
+
+}
